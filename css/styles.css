@@ -1,0 +1,220 @@
+* { 	
+	margin: 0; 
+	padding: 0; 
+	}
+.center	{
+	width: 840px;
+	margin:0 auto; 
+	}
+body{
+	height:100%;
+	background:#647D8C url("../img/bg-body.png") repeat-x fixed center bottom;
+	}
+h2,h3,h4 {
+	font-family: 'Brawler', Cambria, Georgia, 'Times New Roman',serif;
+	color: #322B23;
+	-moz-text-shadow:1px 1px 0 rgba(255,255,255, 0.8);
+	-webkit-text-shadow:1px 1px 0 rgba(255,255,255, 0.8);
+	text-shadow:1px 1px 0 rgba(255,255,255, 0.8);
+	}
+h2{
+	font-size: 26px;
+	}
+h3, h4 {
+	font-size: 20px;
+	line-height: 22px;
+	padding: 10px 0 0 0;
+	}
+p {
+	font:13px Verdana, Arial, sans-serif;
+	color: #504031;
+	}
+
+#header {
+	background: url("../img/bg-header.jpg") repeat scroll center bottom;
+	width: 100%;
+	height: 85px;
+	padding: 20px 0;
+	border-top: 1px solid #21343F;
+	border-bottom: 1px solid #21343F;
+	white-space: nowrap;
+	}			
+#header img {
+	float: left;
+	border: none;
+	}
+#header a	{
+	display: block;
+	border: none;
+	}
+#header p {
+	display: block;
+	float: right;
+	position: relative;
+	color: #F2EEE9;
+	font-family: 'Brawler', Cambria, Georgia, 'Times New Roman',serif;
+	font-size: 17px;
+	top: 26px;
+	-moz-text-shadow:1px 1px 0 rgba(0,0,0, 0.4);
+	-webkit-text-shadow:1px 1px 0 rgba(0,0,0, 0.4);
+	text-shadow:1px 1px 0 rgba(0,0,0, 0.4);
+	}
+#container {
+	padding-top:30px;
+	}
+#nav { 	
+	display: block;
+	margin-left: 10px; 
+	padding:0 0 0 10px;
+	height:38px;
+	overflow:hidden;
+	}
+#nav li {	
+	display: block;
+	list-style: none;
+	float: left;
+	padding: 5px 5px 0 5px;
+	}
+#nav ul li a {	
+	display: block;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Brawler', Cambria, Georgia, 'Times New Roman',serif;
+	font-size: 16px;
+	color: #322B23; 
+	line-height: 32px;
+	width: 125px;
+	background:#D6D7D3;
+	background: rgba(242,237,229,0.8);
+	-moz-box-shadow:0 0 2px rgba(0,0,0, 0.5);
+	-webkit-box-shadow:0 0 2px rgba(0,0,0, 0.5);
+	box-shadow:0 0 2px rgba(0,0,0, 0.5);
+	z-index: 1; 
+	}
+#nav ul li a.current {	
+	position: relative;
+	background:#F2EDE5;
+	z-index: 90;
+	-moz-box-shadow:0 0 3px rgba(0,0,0, 0.5);
+	-webkit-box-shadow:0 0 3px rgba(0,0,0, 0.5);
+	box-shadow:0 0 3px rgba(0,0,0, 0.5);
+	border:1px solid #FFF;
+	border-bottom:none;
+	-moz-text-shadow:1px 1px 0 rgba(255,255,255, 0.8);
+	-webkit-text-shadow:1px 1px 0 rgba(255,255,255, 0.8);
+	text-shadow:1px 1px 0 rgba(255,255,255, 0.8);
+	}
+#nav  ul li:hover a 	{ 	
+	background: #F2EEE9 ; 
+	}
+#content {	
+	position: relative;
+	z-index: 2;
+	clear: both;
+	background-color:#F2EDE5;
+	padding: 20px;
+	display: block;
+	overflow:hidden;
+	/* This bumps the section up 1px, hiding the white border when it's on the current nav tab */
+	margin-top:-1px;
+	border-top:1px solid #FFF;
+	border-left:1px solid #FFF;
+	-moz-box-shadow:0 0 3px rgba(0,0,0, 0.5);
+	-webkit-box-shadow:0 0 3px rgba(0,0,0, 0.5);
+	box-shadow:0 0 3px rgba(0,0,0, 0.5);
+	}
+#content img	{
+	display: inline;
+	border: 1px solid #C4B6A2;
+	margin: 20px 10px; 
+	}
+#content p {
+	margin: 10px 0; 
+	}
+#content h3 {
+	margin: 10px 0 0 0;
+	}
+#content h4 {
+	margin: 5px 0 0 0;
+	padding: 45px 0 0;
+	}	
+#content .right  { 
+	display: block;
+	position: relative;
+	clear: both;
+	}
+#content .right img {
+	float: left; 
+	}
+#content .left  { 
+	display: block;
+	position: relative;
+	clear: both;	
+	}
+#content .left img{ 
+	float: right; 
+	}
+.gallery {	
+	position: relative;
+	float: right;
+	width: 470px;
+	height: 250px;
+	overflow: hidden; 
+	}
+.gallery img	{	
+	position: absolute;
+	border: 1px solid #C4B6A2; 
+	}
+#description {	
+	margin: 0 10px 0 0;
+	width: 310px; 
+	}
+.contact {	
+	position: absolute;
+	top: 80px;
+	right: 180px;
+	text-align: center; 
+	}
+.contact a {	
+	text-decoration: none;
+	font-family: Georgia;
+	font-weight: bold;
+	color: #2E1715;
+	border-bottom: 1px dashed #8C4D3F;
+	}		
+.contact a:hover	{ 	
+	color: #8C4D3F;
+	border: none; 
+	}					
+#footer	{
+	display: block;
+	position: relative;
+	padding:30px 0; 
+	}
+#footer p {
+	font-size:13px;
+	font-family: 'Brawler', Cambria, Georgia, 'Times New Roman',serif;
+	color:#1B1510;
+	letter-spacing:1px;
+	-moz-text-shadow:1px 1px 0 rgba(242,237,229, 0.2);
+	-webkit-text-shadow:1px 1px 0 rgba(242,237,229, 0.2);
+	text-shadow:1px 1px 0 rgba(242,237,229, 0.2);
+	}				
+#footer a.credit	{	
+	text-decoration: none;
+	color:#2F251C; 
+	float: right; 
+	}
+#footer a.credit:hover	{
+	-moz-text-shadow:0 0 4px rgba(242,237,229, 0.6);
+	-webkit-text-shadow:0 0 4px rgba(242,237,229, 0.6);
+	text-shadow:0 0 4px rgba(242,237,229, 0.6);
+	}						
+.window			{ -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+#nav .window		{ -moz-border-radius: 5px 5px 0 0; -webkit-border-radius: 5px 5px 0 0; border-radius: 5px 5px 0 0; }
+.shadow:hover {
+	-moz-box-shadow:0 0 3px rgba(0,0,0, 0.5);
+	-webkit-box-shadow:0 0 3px rgba(0,0,0, 0.5);
+	box-shadow:0 0 3px rgba(0,0,0, 0.5);
+	}
